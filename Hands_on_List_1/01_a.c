@@ -23,3 +23,8 @@ int main(int argc, char *argv[]){
 	}
 	return 0;
 }
+
+/*
+ > ./a.out source.txt softLink.txt 
+ >  Link created successfully
+*/

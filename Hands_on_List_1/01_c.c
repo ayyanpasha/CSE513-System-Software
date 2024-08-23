@@ -30,3 +30,10 @@ int main(int argc, char *argv[]){
 		printf("Created FIFO file with mknod successfully\n");
 	}
 }
+
+/*
+./a.out mkfifo mknod
+Created FIFO file with mkfifo successfully
+Created FIFO file with mknod successfully
+
+*/

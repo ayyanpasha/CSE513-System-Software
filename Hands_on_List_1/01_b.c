@@ -21,3 +21,10 @@ int main(int argc, char *argv[]){
 		printf("Hard Link created successfully\n");
 	}
 }
+
+/*
+./a.out source.txt hardLink 
+Hard Link created successfully
+
+
+*/
