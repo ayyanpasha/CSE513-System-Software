@@ -4,8 +4,8 @@
 
 #include<sys/types.h>	// Import data type used in System call
 #include<sys/stat.h>	// Import sys/types.h data micros
-#include<fcntl.h>	// Import file Control system calls
-#include<stdio.h>	// Import printf and perror
+#include<fcntl.h>		// Import file Control system calls
+#include<stdio.h>		// Import printf and perror
 
 int main(int argc, char *argv[]){
 	if(argc != 2){

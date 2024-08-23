@@ -2,8 +2,8 @@
 // Name: Ayyan Pasha
 // Roll Number: MT2024029
 
-#include<unistd.h> // Import link
-#include<stdio.h> // Import printf and perror
+#include<unistd.h>	// Import link
+#include<stdio.h>	// Import printf and perror
 
 int main(int argc, char *argv[]){
 	if(argc != 3){
