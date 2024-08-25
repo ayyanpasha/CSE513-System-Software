@@ -46,3 +46,17 @@ int main(int argc, char *argv[]){
 	printf("Time of Last change: %s", ctime(&statbuf.st_ctime));
 	return 0;
 }
+
+/*
+./a.out 09.c 
+Inode: 12702930
+Number of hard links: 1
+UID: 503
+GID: 20
+Size: 1498
+Block Size: 4096
+Number of Blocks: 8
+Last Access: Sat Aug 24 15:28:00 2024
+Last Modification: Sat Aug 24 15:26:49 2024
+Time of Last change: Sat Aug 24 15:26:49 2024
+*/

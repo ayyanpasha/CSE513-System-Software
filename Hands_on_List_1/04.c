@@ -23,3 +23,8 @@ int main(int argc, char *argv[]){
 	}
 	return 0;
 }
+
+/*
+./a.out 04.c 
+Sucessfully opened file with Read and Write Mode
+*/

@@ -19,3 +19,12 @@ int main(){
 	}	
 	return 0;
 }
+/*
+./a.out 
+H
+H
+Hi
+Hi
+Hello World
+Hello World
+*/
