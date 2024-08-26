@@ -45,5 +45,5 @@ int main(int argc, char *argv[]){
 ./a.out test.txt
 cat test.txt 
 HELLO WORLD
-
-ORIGINALDUPLICATE*/
+ORIGINALDUPLICATE
+*/
