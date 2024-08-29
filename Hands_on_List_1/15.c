@@ -2,8 +2,15 @@
 // Name: Ayyan Pasha
 // Roll Number: MT2024029
 
-#include <stdio.h>
+#include <stdio.h>	// Import `NULL` and `environ`
+
+extern char ** environ;
 
 int main(){
+	char **it = environ;
+	while(*it){
+		printf("%s\n",*it);
+		it++;
+	}
 	return 0;
 }

@@ -41,7 +41,7 @@ int main(int argc, char *argv[]){
 	}else{
 		fcntl(fd,F_SETLK,lock);
 		printf("File Lock has been applied\n");
-		pause();
+		//pause();
 	}
 	return 0;
 }

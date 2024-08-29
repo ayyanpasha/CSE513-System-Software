@@ -22,3 +22,18 @@ int main(){
 	}
 	return 0;
 }
+
+/*
+./a.out
+Child A created !!!
+Putting Child A to sleep for 5 secs
+Parent waiting for Child C
+Child B Created !!
+Putting Child B to sleep for 10 secs
+Child C Created !!
+Putting Child C to sleep for 15 secs
+Child A Woke up
+Child B Woke up
+Child C Woke up
+Child C has exited with exit status: 0
+*/
