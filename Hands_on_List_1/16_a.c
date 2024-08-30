@@ -1,9 +1,12 @@
 /*
-Question: Write a program to perform mandatory locking. 
+============================================================================
+Name : 16a.c
+Author : Ayyan Pasha
+Description : Write a program to perform mandatory locking. 
     - Implement write lock 
+Date: 26th Aug, 2024.
+============================================================================
 */
-// Name: Ayyan Pasha
-// Roll Number: MT2024029
 
 #include <stdio.h>	// Import `printf` and `perror`
 #include <fcntl.h>	// Import file control

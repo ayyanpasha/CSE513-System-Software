@@ -1,4 +1,8 @@
-/* Question : Write a program to print the following information about a given file - 
+/*
+============================================================================
+Name : 9.c
+Author : Ayyan Pasha
+Description : Write a program to print the following information about a given file - 
     1. Inode 
     2. Number of hard links 
     3. UID 
@@ -9,9 +13,9 @@
     8. Time of last access 
     9. Time of last modification 
     10. Time of last change
+Date: 24th Aug, 2024.
+============================================================================
 */
-// Name: Ayyan Pasha
-// Roll Number: MT2024029
 
 #include <sys/types.h> // Import for open system call.
 #include <sys/stat.h>  // Import micros

@@ -1,9 +1,12 @@
 /*
-Question:  Write a program to execute `ls -Rl` by the following system calls 
-    5. `execvp` 
+============================================================================
+Name : 27e.c
+Author : Ayyan Pasha
+Description : Write a program to execute `ls -Rl` by the following system calls 
+    e. `execvp` 
+Date: 26th Aug, 2024.
+============================================================================
 */
-// Name: Ayyan Pasha
-// Roll Number: MT2024029
 
 #include <unistd.h> // Import for `execvp` function
 #include <stdio.h>  // Import for `printf` function

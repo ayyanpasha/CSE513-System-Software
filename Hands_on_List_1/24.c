@@ -1,6 +1,11 @@
-// Question : Write a program to create an orphan process
-// Name: Ayyan Pasha
-// Roll Number: MT2024029
+/*
+============================================================================
+Name : 24.c
+Author : Ayyan Pasha
+Description : Write a program to create an orphan process
+Date: 26th Aug, 2024.
+============================================================================
+*/
 
 #include <sys/types.h> // Import for `fork` system call
 #include <unistd.h>    // Import for `fork` system call

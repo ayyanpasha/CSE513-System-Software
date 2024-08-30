@@ -1,6 +1,11 @@
-// Question : Write a program to wait for a STDIN for 10 seconds using select. Write a proper print statement to verify whether the data is available within 10 seconds or not (check in $man 2 select).
-// Name: Ayyan Pasha
-// Roll Number: MT2024029
+/*
+============================================================================
+Name : 13.c
+Author : Ayyan Pasha
+Description : Write a program to wait for a STDIN for 10 seconds using select. Write a proper print statement to verify whether the data is available within 10 seconds or not (check in $man 2 select).
+Date: 25th Aug, 2024.
+============================================================================
+*/
 
 #include <sys/time.h>  // Import for `timeval` system call
 #include <sys/types.h> // Import for `FD_SET` system call

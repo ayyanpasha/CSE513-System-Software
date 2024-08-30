@@ -1,6 +1,11 @@
-// Question : Find out the priority of your running program. Modify the priority with nice command.
-// Name: Ayyan Pasha
-// Roll Number: MT2024029
+/*
+============================================================================
+Name : 20.c
+Author : Ayyan Pasha
+Description : Find out the priority of your running program. Modify the priority with nice command.
+Date: 26th Aug, 2024.
+============================================================================
+*/
 
 #include <unistd.h> // Import for `nice` system call
 #include <stdio.h>  // Import for `printf` function

@@ -1,8 +1,14 @@
-/* Question : 8. Write a program to execute an executable program. 
+/*
+============================================================================
+Name : 26.c
+Author : Ayyan Pasha
+Description : Write a program to execute an executable program. 
     1. Use some executable program 
-    2. Pass some input to an executable program. (for example execute an executable of `$./a.out name`) */
-// Name: Ayyan Pasha
-// Roll Number: MT2024029
+    2. Pass some input to an executable program. (for example execute an executable of `$./a.out name`)
+Date: 26th Aug, 2024.
+============================================================================
+*/
+
 
 #include <unistd.h>	// Import execl
 

@@ -1,6 +1,11 @@
-// Question : Write a program to create three child processes. The parent should wait for a particular child (use `waitpid` system call).
-// Name: Ayyan Pasha
-// Roll Number: MT2024029
+/*
+============================================================================
+Name : 25.c
+Author : Ayyan Pasha
+Description : Write a program to create three child processes. The parent should wait for a particular child (use `waitpid` system call).
+Date: 26th Aug, 2024.
+============================================================================
+*/
 
 #include <unistd.h>    // Import for `fork`
 #include <sys/types.h> // Import for `fork`, `waitpid`

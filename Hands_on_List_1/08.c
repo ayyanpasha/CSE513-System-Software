@@ -1,6 +1,12 @@
-// Question : Write a program to open a file in read only mode, read line by line and display each line as it is read. Close the file when end of file is reached.
-// Name: Ayyan Pasha
-// Roll Number: MT2024029
+/*
+============================================================================
+Name : 8.c
+Author : Ayyan Pasha
+Description : Write a program to open a file in read only mode, read line by line and display each line as it is read. Close the file when end of file is reached.
+Date: 24th Aug, 2024.
+============================================================================
+*/
+
 #include <sys/types.h> // Import for open system call.
 #include <sys/stat.h>  // Import micros
 #include <fcntl.h>     // Import File Control

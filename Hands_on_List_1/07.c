@@ -1,6 +1,11 @@
-// Question: Write a program to copy file1 into file2 ($cp file1 file2).
-// Name: Ayyan Pasha
-// Roll Number: MT2024029
+/*
+============================================================================
+Name : 7.c
+Author : Ayyan Pasha
+Description : Write a program to copy file1 into file2 ($cp file1 file2).
+Date: 24th Aug, 2024.
+============================================================================
+*/
 
 #include <sys/types.h>	// Import system call data types
 #include <sys/stat.h>	// Import micro for system call
@@ -76,6 +81,4 @@ int main(int argc, char *argv[]){
 /*
  > ./a.out source.txt softLink.txt 
  >  Link created successfully
-*/
-
 */

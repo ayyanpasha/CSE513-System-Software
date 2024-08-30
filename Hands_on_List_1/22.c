@@ -1,6 +1,11 @@
-// Question : Write a program, open a file, call fork, and then write to the file by both the child as well as the parent processes. Check output of the file
-// Name: Ayyan Pasha
-// Roll Number: MT2024029
+/*
+============================================================================
+Name : 22.c
+Author : Ayyan Pasha
+Description : Write a program, open a file, call fork, and then write to the file by both the child as well as the parent processes. Check output of the file
+Date: 26th Aug, 2024.
+============================================================================
+*/
 
 #include <unistd.h>    	// Import for `fork` system call
 #include <sys/types.h> 	// Import for `open`, `fork` system call

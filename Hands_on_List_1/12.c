@@ -1,6 +1,12 @@
-// Question: Write a program to find out the opening mode of a file. Use `fcntl`
-// Name: Ayyan Pasha
-// Roll Number: MT2024029
+/*
+============================================================================
+Name : 12.c
+Author : Ayyan Pasha
+Description : Write a program to find out the opening mode of a file. Use `fcntl`
+Date: 25th Aug, 2024.
+============================================================================
+*/
+
 
 #include <sys/types.h> // Import for `open` system call
 #include <sys/stat.h>  // Import for `open` system call

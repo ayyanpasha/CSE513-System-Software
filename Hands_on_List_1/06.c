@@ -1,6 +1,11 @@
-// Question: Write a program to take input from STDIN and display on STDOUT. Use only read/write system calls
-// Name: Ayyan Pasha
-// Roll Number: MT2024029
+/*
+============================================================================
+Name : 6.c
+Author : Ayyan Pasha
+Description : Write a program to take input from STDIN and display on STDOUT. Use only read/write system calls
+Date: 23rd Aug, 2024.
+============================================================================
+*/
 
 #include <unistd.h>	// Import read and write
 #include <stdio.h>	// Import perror

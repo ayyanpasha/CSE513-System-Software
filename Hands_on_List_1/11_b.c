@@ -1,6 +1,12 @@
-// Question: Write a program to open a file, duplicate the file descriptor and append the file with both the descriptors and check whether the file is updated properly or not using `dup`
-// Name: Ayyan Pasha
-// Roll Number: MT2024029
+/*
+============================================================================
+Name : 11b.c
+Author : Ayyan Pasha
+Description : Write a program to open a file, duplicate the file descriptor and append the file with both the descriptors and check whether the file is updated properly or not.
+			Use dup2
+Date: 25th Aug, 2024.
+============================================================================
+*/
 
 #include <unistd.h>    // Import for `dup` system call
 #include <sys/types.h> // Import for `open` system call

@@ -1,6 +1,11 @@
-// Question : Write a program to create five new files with infinite loop. Execute the program in the background and check the file descriptor table at /proc/pid/fd.
-// Name: Ayyan Pasha
-// Roll Number: MT2024029
+/*
+============================================================================
+Name : 5.c
+Author : Ayyan Pasha
+Description : Write a program to create five new files with infinite loop. Execute the program in the background and check the file descriptor table at /proc/pid/fd.
+Date: 23rd Aug, 2024.
+============================================================================
+*/
 
 #include <sys/types.h>	// Import for `creat` system call
 #include <sys/stat.h>	// Import micro values

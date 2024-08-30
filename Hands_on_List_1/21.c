@@ -1,6 +1,11 @@
-// Question : Write a program, call fork and print the parent and child process id.
-// Name: Ayyan Pasha
-// Roll Number: MT2024029
+/*
+============================================================================
+Name : 21.c
+Author : Ayyan Pasha
+Description : Write a program, call fork and print the parent and child process id.
+Date: 26th Aug, 2024.
+============================================================================
+*/
 
 #include <sys/types.h> // Import for `fork` & `getpid` system call
 #include <unistd.h>    // Import for `fork` & `getpid` system call

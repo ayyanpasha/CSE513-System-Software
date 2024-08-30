@@ -1,6 +1,11 @@
-// Question: Create a hard link file using the `link` system call
-// Name: Ayyan Pasha
-// Roll Number: MT2024029
+/*
+============================================================================
+Name : 1b.c
+Author : Ayyan Pasha
+Description : Create a hard link file using the `link` system call
+Date: 22nd Aug, 2024.
+============================================================================
+*/
 
 #include<unistd.h>	// Import link
 #include<stdio.h>	// Import printf and perror

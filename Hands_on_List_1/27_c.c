@@ -1,9 +1,12 @@
 /*
-Question:  Write a program to execute `ls -Rl` by the following system calls 
-    3. `execle` 
+============================================================================
+Name : 27c.c
+Author : Ayyan Pasha
+Description : Write a program to execute `ls -Rl` by the following system calls 
+    c. `execle` 
+Date: 26th Aug, 2024.
+============================================================================
 */
-// Name: Ayyan Pasha
-// Roll Number: MT2024029
 
 #include <unistd.h> // Import for `execle` function
 #include <stdio.h>  // Import for `printf` function

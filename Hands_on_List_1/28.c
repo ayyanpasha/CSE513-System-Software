@@ -1,6 +1,11 @@
-// Question : Write a program to get maximum and minimum real time priority
-// Name: Ayyan Pasha
-// Roll Number: MT2024029
+/*
+============================================================================
+Name : 28.c
+Author : Ayyan Pasha
+Description : Write a program to get maximum and minimum real time priority 
+Date: 27th Aug, 2024.
+============================================================================
+*/
 
 #include <sched.h> // Import for `sched_get_priority_*` functions
 #include <stdio.h> // Import for `printf`

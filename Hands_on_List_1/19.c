@@ -1,6 +1,11 @@
-// Question : Write a program to find out time taken to execute getpid system call. Use time stamp counter.
-// Name: Ayyan Pasha
-// Roll Number: MT2024029
+/*
+============================================================================
+Name : 19.c
+Author : Ayyan Pasha
+Description : Write a program to find out time taken to execute getpid system call. Use time stamp counter.
+Date: 26th Aug, 2024.
+============================================================================
+*/
 
 #include <sys/time.h>  // Import for `gettimeofday` system call
 #include <sys/types.h> // Import for Micros

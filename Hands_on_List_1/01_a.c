@@ -1,6 +1,11 @@
-// Question: Create a soft link file using the `symlink` system call
-// Name: Ayyan Pasha
-// Roll Number: MT2024029
+/*
+============================================================================
+Name : 1a.c
+Author : Ayyan Pasha
+Description : Create a soft link file using the `symlink` system call
+Date: 22nd Aug, 2024.
+============================================================================
+*/
 
 #include<unistd.h> // import symlink
 #include<stdio.h>  // import printf and perror

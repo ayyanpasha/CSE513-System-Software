@@ -1,10 +1,13 @@
-/* Question: Write a program to open a file with read write mode, write 10 bytes, move the file pointer by 10 bytes (use lseek) and write again 10 bytes. 
-
+/*
+============================================================================
+Name : 10.c
+Author : Ayyan Pasha
+Description : Write a program to open a file with read write mode, write 10 bytes, move the file pointer by 10 bytes (use lseek) and write again 10 bytes. 
     1. Check the return value of `lseek` 
     2. Open the file with `od` and check the empty spaces in between the data.
+Date: 24th Aug, 2024.
+============================================================================
 */
-// Name: Ayyan Pasha
-// Roll Number: MT2024029
 
 #include <sys/types.h>	// Import open
 #include <sys/stat.h>	// Import micros

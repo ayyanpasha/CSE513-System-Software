@@ -1,17 +1,22 @@
-// Question : Write a program to run a script at a specific time using a Daemon process
-// Name: Ayyan Pasha
-// Roll Number: MT2024029
+/*
+============================================================================
+Name : 30.c
+Author : Ayyan Pasha
+Description : Write a program to run a script at a specific time using a Daemon process
+Date: 27th Aug, 2024.
+============================================================================
+*/
 
 #include <time.h>      // Import for time related stuff
 #include <stdio.h>     // Import for printf
 #include <sys/types.h> // Import for fork, setsid
 #include <unistd.h>    // Import for fork, setsid
+#include <stdlib.h>    // Import atoi
 
 void runScript(){
-    char *command_line = "/bin/ls";
-	char *options = "-Rl";
+    char *command_line = "./30.sh";
 	
-	execl(command_line,command_line,options,NULL);
+	execl(command_line,command_line,NULL);
 }
 
 // Argument to be passed as hour minute second
@@ -40,18 +45,24 @@ int main(int argc, char *argv[])
     if ((child = fork()) == 0)
     {
         setsid();
+
+        if (difftime(deadlineEpoch, currentEpoch) <= 0){
+            printf("TIME EXPIRED");
+            return 0;
+        }
+
         do
         {
             time(&currentEpoch);
         } while (difftime(deadlineEpoch, currentEpoch) > 0);
-        printf("Executing ls command in Daemon Process!\n");
+        printf("Executing ls command in Daemon Process in script!\n");
         runScript();
     }
     return 0;
 }
 /*
 ./a.out 11 6 50
-Executing ls command in Daemon Process!
+Executing ls command in Daemon Process in script
 total 456
 -rw-r--r--  1 ayyanpasha  staff    650 Aug 22 09:22 01_a.c
 -rw-r--r--  1 ayyanpasha  staff    603 Aug 23 18:20 01_b.c

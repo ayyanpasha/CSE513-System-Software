@@ -1,6 +1,11 @@
-// Question: Create a FIFO file using the `mkfifo` library function or `mknod` system call
-// Name: Ayyan Pasha
-// Roll Number: MT2024029
+/*
+============================================================================
+Name : 1c.c
+Author : Ayyan Pasha
+Description : Create a FIFO file using the `mkfifo` library function or `mknod` system call
+Date: 22nd Aug, 2024.
+============================================================================
+*/
 
 #include<sys/types.h> // Import data type used in System call
 #include<sys/stat.h>  // Import micros for data type in System call

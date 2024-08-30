@@ -1,9 +1,12 @@
 /*
-Question:  Write a program to execute `ls -Rl` by the following system calls 
-    2. `execlp` 
+============================================================================
+Name : 27b.c
+Author : Ayyan Pasha
+Description : Write a program to execute `ls -Rl` by the following system calls 
+    b. `execlp` 
+Date: 26th Aug, 2024.
+============================================================================
 */
-// Name: Ayyan Pasha
-// Roll Number: MT2024029
 
 #include <unistd.h> // Import for `execlp` function
 #include <stdio.h>  // Import for `printf` function

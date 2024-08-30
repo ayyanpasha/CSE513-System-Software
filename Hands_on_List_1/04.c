@@ -1,6 +1,11 @@
-// Question : Write a program to open an existing file with read write mode. Try O_EXCL flag also.
-// Name: Ayyan Pasha
-// Roll Number: MT2024029
+/*
+============================================================================
+Name : 4.c
+Author : Ayyan Pasha
+Description : Write a program to open an existing file with read write mode. Try O_EXCL flag also.
+Date: 23rd Aug, 2024.
+============================================================================
+*/
 
 #include <sys/types.h>	// Import data types used in System Call
 #include <sys/stat.h>	// Import System Call micro values
