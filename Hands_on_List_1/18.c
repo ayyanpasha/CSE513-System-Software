@@ -63,8 +63,8 @@ void unlock_record(int fd, off_t record_offset) {
 }
 
 int main() {
-    char *FILE_PATH = "./support_folder/18-file.txt";
-    int fd = open(FILE_PATH, O_CREAT | O_RDWR, S_IRWXU);
+    char *filePath = "./support_folder/18-file.txt";
+    int fd = open(filePath, O_CREAT | O_RDWR, S_IRWXU);
     if (fd == -1) {
         perror("Error while opening the file");
         return 1;
