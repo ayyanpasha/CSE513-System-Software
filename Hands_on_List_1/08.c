@@ -1,6 +1,6 @@
 /*
 ============================================================================
-Name : 8.c
+Name : 08.c
 Author : Ayyan Pasha
 Description : Write a program to open a file in read only mode, read line by line and display each line as it is read. Close the file when end of file is reached.
 Date: 24th Aug, 2024.

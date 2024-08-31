@@ -1,6 +1,6 @@
 /*
 ============================================================================
-Name : 4.c
+Name : 04.c
 Author : Ayyan Pasha
 Description : Write a program to open an existing file with read write mode. Try O_EXCL flag also.
 Date: 23rd Aug, 2024.

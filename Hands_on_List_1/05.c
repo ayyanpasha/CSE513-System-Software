@@ -1,6 +1,6 @@
 /*
 ============================================================================
-Name : 5.c
+Name : 05.c
 Author : Ayyan Pasha
 Description : Write a program to create five new files with infinite loop. Execute the program in the background and check the file descriptor table at /proc/pid/fd.
 Date: 23rd Aug, 2024.

@@ -1,6 +1,6 @@
 /*
 ============================================================================
-Name : 11c.c
+Name : 11_c.c
 Author : Ayyan Pasha
 Description : Write a program to open a file, duplicate the file descriptor and append the file with both the descriptors and check whether the file is updated properly or not.
 			Use fcntl

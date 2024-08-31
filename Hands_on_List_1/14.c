@@ -45,3 +45,8 @@ int main(int argc, char *argv[])
         write(STDOUT_FILENO, "Error\n", 6);
     return 0;
 }
+
+/*
+./a.out 14.c
+Regular File
+*/

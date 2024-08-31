@@ -1,6 +1,6 @@
 /*
 ============================================================================
-Name : 1c.c
+Name : 01_c.c
 Author : Ayyan Pasha
 Description : Create a FIFO file using the `mkfifo` library function or `mknod` system call
 Date: 22nd Aug, 2024.

@@ -1,6 +1,6 @@
 /*
 ============================================================================
-Name : 1a.c
+Name : 01_a.c
 Author : Ayyan Pasha
 Description : Create a soft link file using the `symlink` system call
 Date: 22nd Aug, 2024.

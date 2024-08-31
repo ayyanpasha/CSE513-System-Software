@@ -1,6 +1,6 @@
 /*
 ============================================================================
-Name : 17b.c
+Name : 17_b.c
 Author : Ayyan Pasha
 Description : Write a program to simulate online ticket reservations. 
 		a .Implement a write lock.  Write a program to open a file, store a ticket number, and exit. 

@@ -1,6 +1,6 @@
 /*
 ============================================================================
-Name : 1b.c
+Name : 01_b.c
 Author : Ayyan Pasha
 Description : Create a hard link file using the `link` system call
 Date: 22nd Aug, 2024.

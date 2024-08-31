@@ -1,6 +1,6 @@
 /*
 ============================================================================
-Name : 16b.c
+Name : 16_b.c
 Author : Ayyan Pasha
 Description : Write a program to perform mandatory locking. 
     - Implement read lock 

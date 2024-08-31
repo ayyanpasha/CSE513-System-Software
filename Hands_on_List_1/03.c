@@ -1,6 +1,6 @@
 /*
 ============================================================================
-Name : 3.c
+Name : 03.c
 Author : Ayyan Pasha
 Description : Write a program to create a file and print the file descriptor value. Use creat() system call
 Date: 22nd Aug, 2024.

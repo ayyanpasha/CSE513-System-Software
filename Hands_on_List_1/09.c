@@ -1,6 +1,6 @@
 /*
 ============================================================================
-Name : 9.c
+Name : 09.c
 Author : Ayyan Pasha
 Description : Write a program to print the following information about a given file - 
     1. Inode 

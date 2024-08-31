@@ -1,6 +1,6 @@
 /*
 ============================================================================
-Name : 6.c
+Name : 06.c
 Author : Ayyan Pasha
 Description : Write a program to take input from STDIN and display on STDOUT. Use only read/write system calls
 Date: 23rd Aug, 2024.
